@@ -1,0 +1,32 @@
+{
+    "items": [
+        {
+            "title": "HOME",
+            "href": "/"
+        },
+        {
+            "title": "NEWS",
+            "href": "/news"
+        },
+        {
+            "title": "GAMES",
+            "href": "/games"
+        },
+        {
+            "title": "GUIDE",
+            "href": "/guide"
+        },
+        {
+            "title": "TOKEN",
+            "href": "/tokenomic"
+        },
+        {
+            "title": "ROADMAP",
+            "href": "/roadmap"
+        },
+        {
+            "title": "PARTNER",
+            "href": "/partner"
+        }
+    ]
+}

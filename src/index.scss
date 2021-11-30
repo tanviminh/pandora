@@ -1,0 +1,44 @@
+$thumb-color: #ff6f00;
+$track-color: #eeeeee;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Colaborate-Regular';
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  font-family: 'Colaborate-Regular';
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@font-face {
+  font-family: 'Colaborate-Regular';
+  font-weight: normal;
+  src: local('Colaborate-Regular'), url('./assets/fonts/Colaborate-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Colaborate-Bold';
+  font-weight: bold;
+  src: local('Colaborate-Bold'), url('./assets/fonts/Colaborate-Bold.otf') format('opentype');
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: $track-color;
+  // border: 2px solid $track-color;
+  // border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  background: $track-color;
+}

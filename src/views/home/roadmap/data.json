@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "phase": 7,
+            "title": "PHASE 7",
+            "subtitle": "",
+            "description": "- Metaverse Casino"
+        },
+        {
+            "phase": 6,
+            "title": "PHASE 6",
+            "subtitle": "March – May 2022",
+            "description": "- Decentralize spot betting\n- Everyone can be to become dealer"
+        },
+        {
+            "phase": 5,
+            "title": "PHASE 5",
+            "subtitle": "January - February 2022",
+            "description": "- Decentralize poker"
+        },
+        {
+            "phase": 4,
+            "title": "PHASE 4",
+            "subtitle": "December 2021",
+            "description": "- Decentralize sea fish shooter\n- Decentralize predict market"
+        },
+        {
+            "phase": 3,
+            "title": "PHASE 3",
+            "subtitle": "November 2021",
+            "description": "- Decentralize slot machine\n- Decentralize bacarat\n- Decentralize blackjack"
+        },
+        {
+            "phase": 2,
+            "title": "PHASE 2",
+            "subtitle": "October 2021",
+            "description": "- Introduce XYZ token\n- Intergration XYZ token to games platform"
+        },
+        {
+            "phase": 1,
+            "title": "PHASE 1",
+            "subtitle": "October 2021",
+            "description": "- Open beta centralize games\n- Running full centralize games platform"
+        }
+    ]
+}
