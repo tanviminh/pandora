@@ -17,6 +17,7 @@ import {
   Title,
   LogoWhite,
 } from 'components';
+import useDetectDevice from 'hooks/useDetect';
 import React from 'react';
 
 const Wrapper = styled(Box)({
@@ -37,7 +38,7 @@ const GridWrapper = styled((props: GridProps) => {
 
 const GridItem = styled((props: StackProps) => {
   return (
-    <Grid item sm={12} md={3}>
+    <Grid item sm={12} md={3} sx={{ width: '100%' }}>
       <Stack spacing={5} alignItems="center" textAlign="center" {...props} />
     </Grid>
   );
@@ -48,6 +49,7 @@ const Icon = styled((props: any) => {
 })``;
 
 const Footer: React.FC = () => {
+  const { isMobile } = useDetectDevice();
   return (
     <Wrapper>
       <Page>
@@ -67,7 +69,7 @@ const Footer: React.FC = () => {
         </Stack>
         <Line height={2} />
         <GridWrapper>
-          <Grid item sm={12} md={3}>
+          <Grid item sm={12} md={3} sx={{ textAlign: isMobile ? 'center' : 'left' }}>
             <Stack spacing={5}>
               <Title>Lorem ipsum dolor sit amet</Title>
               <Text>
@@ -117,8 +119,8 @@ const Footer: React.FC = () => {
                 <Text>© 2021 copyright pandora</Text>
               </Stack>
             </Grid>
-            <Grid item sm={12} md={6}>
-              <Stack direction="row" justifyContent="flex-end" spacing={1}>
+            <Grid item sm={12} md={6} sx={{ width: '100%' }}>
+              <Stack direction="row" justifyContent={isMobile ? 'center' : 'flex-end'} spacing={1}>
                 <IconButton>
                   <Icon src={icFacebook} />
                 </IconButton>

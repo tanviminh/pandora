@@ -31,6 +31,20 @@ code {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  src: url('/fonts/Roboto-Regular.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: bold;
+  src: url('/fonts/Roboto-Bold.ttf');
+  font-display: swap;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
   height: 0px;

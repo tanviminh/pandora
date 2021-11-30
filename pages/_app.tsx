@@ -10,6 +10,8 @@ function App({ Component, pageProps }) {
       <Head>
         <link rel="preload" href="/fonts/Colaborate-Regular.otf" as="font" crossOrigin="" />
         <link rel="preload" href="/fonts/Colaborate-Bold.otf" as="font" crossOrigin="" />
+        <link rel="preload" href="/fonts/Roboto-Bold.ttf" as="font" crossOrigin="" />
+        <link rel="preload" href="/fonts/Roboto-Regular.ttf" as="font" crossOrigin="" />
       </Head>
       <Providers>
         <Menu>

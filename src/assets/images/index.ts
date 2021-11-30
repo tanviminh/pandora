@@ -35,3 +35,5 @@ export const icFacebook = '/images/ic-facebook.webp';
 export const icTwitter = '/images/ic-twitter.webp';
 export const icTelegram = '/images/ic-telegram.webp';
 export const icReddit = '/images/ic-reddit.webp';
+export const bgToken = '/images/bg-token.webp';
+export const icToken = '/images/ic-token.webp';

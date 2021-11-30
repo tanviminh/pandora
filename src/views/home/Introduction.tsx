@@ -1,8 +1,8 @@
 import { bgHomeIntroduction, icHomeIntroduction } from 'assets/images';
-import { Box, Grid, Image, Page, Stack, styled, Typography } from 'components';
+import { Box, Grid, Image, Page, Stack, styled, Text, Subtitle } from 'components';
 import React from 'react';
 import Bep20 from './components/Bep20';
-import PandoraBox from './components/PandoraBox';
+import { PandoraBox } from 'components';
 import Platform from './components/Platform';
 
 const Wrapper = styled(Box)({
@@ -31,12 +31,8 @@ const Introduction = () => {
             <Stack justifyContent="center" spacing={12} sx={{}}>
               <PandoraBox />
               <Stack>
-                <Typography variant="h6" sx={{ fontWeight: 'bold' }}>
-                  Own and trade your solar assets freely safely easily
-                </Typography>
-                <Typography>
-                  Join one of the most rapidly growing industry and help to make this world greener
-                </Typography>
+                <Subtitle sx={{ fontWeight: 'bold' }}>Own and trade your solar assets freely safely easily</Subtitle>
+                <Text>Join one of the most rapidly growing industry and help to make this world greener</Text>
               </Stack>
 
               <Platform />
