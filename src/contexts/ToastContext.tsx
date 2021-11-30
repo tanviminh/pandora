@@ -21,8 +21,8 @@ const ToastContextProvider: React.FC = (props) => {
   const [message, setMessage] = useState('');
   const [type, setType] = useState<ToastType>('success');
 
-  const handleClose = (event?: React.SyntheticEvent, reason?: string) => {
-    if (reason === 'clickaway') {
+  const handleClose = (params: any) => {
+    if (params.reason === 'clickaway') {
       return;
     }
 

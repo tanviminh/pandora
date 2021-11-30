@@ -17,7 +17,7 @@ const Wrapper = styled(Box)({
 const Introduction = () => {
   return (
     <Wrapper>
-      <Title letterSpacing={12}>500 | NOT FOUND</Title>
+      <Title letterSpacing={12}>404 | NOT FOUND</Title>
     </Wrapper>
   );
 };
