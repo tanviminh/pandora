@@ -5,16 +5,12 @@
             "href": "/"
         },
         {
-            "title": "NEWS",
+            "title": "ECOSYSTEM",
             "href": "/news"
         },
         {
             "title": "GAMES",
             "href": "/games"
-        },
-        {
-            "title": "GUIDE",
-            "href": "/guide"
         },
         {
             "title": "TOKEN",
@@ -25,8 +21,8 @@
             "href": "/roadmap"
         },
         {
-            "title": "PARTNER",
-            "href": "/partner"
+            "title": "INDUSTRY",
+            "href": "/industry"
         }
     ]
 }

@@ -1,33 +1,19 @@
-import { Token1Icon, Token2Icon, Token3Icon, Token4Icon } from 'assets/icons';
-import { Grid, Stack, Text } from 'components';
-import React, { useMemo } from 'react';
+import { Grid, Image, Stack, Text } from 'components';
+import React from 'react';
 
 interface Props {
   title: string;
   description: string;
-  index: number;
+  image: string;
 }
 const Item: React.FC<Props> = (props) => {
-  const { title, description, index } = props;
-  const Icon = useMemo(() => {
-    if (index === 0) {
-      return Token1Icon;
-    }
-    if (index === 1) {
-      return Token2Icon;
-    }
-    if (index === 2) {
-      return Token3Icon;
-    }
-    if (index === 3) {
-      return Token4Icon;
-    }
-  }, [index]);
+  const { title, description, image } = props;
+
   return (
     <Grid md={6} sm={12} item>
-      <Stack direction="row" spacing={5}>
+      <Stack direction="row" alignItems="center" spacing={10}>
         <Stack>
-          <Icon />
+          <Image src={image} width={120} height={120} />
         </Stack>
 
         <Stack spacing={2}>

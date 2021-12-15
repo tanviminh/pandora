@@ -26,7 +26,7 @@ const styles: ThemeOptions = {
   },
   spacing: 4,
   typography: {
-    fontFamily: 'Colaborate',
+    fontFamily: 'Roboto',
     allVariants: {
       color: '#ffffff',
     },
@@ -35,16 +35,16 @@ const styles: ThemeOptions = {
     MuiCssBaseline: {
       styleOverrides: `
       @font-face {
-        font-family: 'Colaborate';
+        font-family: 'Roboto';
         font-weight: normal;
-        src: url('/fonts/Colaborate-Regular.otf');
+        src: url('/fonts/Roboto-Regular.otf');
         font-display: swap;
       }
       
       @font-face {
-        font-family: 'Colaborate';
+        font-family: 'Roboto';
         font-weight: bold;
-        src: url('/fonts/Colaborate-Bold.otf');
+        src: url('/fonts/Roboto-Bold.otf');
         font-display: swap;
       }
       `,

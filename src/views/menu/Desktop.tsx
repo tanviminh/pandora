@@ -1,4 +1,5 @@
 import { AppBar, Logo, Page, Slide, Stack, StackProps, styled, Toolbar, useScrollTrigger } from 'components';
+import { PlayNow } from 'components/actions';
 import useDetectDevice from 'hooks/useDetect';
 import React from 'react';
 import Item from './components/Item';
@@ -25,23 +26,11 @@ const Wrapper = styled((props: StackProps) => {
 })({});
 
 const ItemWrapper = styled((props: StackProps) => {
-  return <Stack direction="row" spacing={4} {...props} />;
+  return <Stack direction="row" alignItems="center" spacing={4} {...props} />;
 })({});
 
 const Menu: React.FC = (props) => {
   const { isMobile } = useDetectDevice();
-  // const [hash, setHash] = useState('');
-  // useEffect(() => {
-  //   setHash(window.location.hash);
-  //   const handle = () => {
-  //     setHash(window.location.hash);
-  //   };
-  //   window.addEventListener('hashchange', handle, {});
-
-  //   return () => {
-  //     window.removeEventListener('hashchange', handle);
-  //   };
-  // }, []);
 
   return (
     <>
@@ -54,9 +43,9 @@ const Menu: React.FC = (props) => {
                   <Logo />
                   <ItemWrapper>
                     {data.items.map((item, index) => {
-                      // const active = _.isEqual(parseHash(hash), parseHash(item.href));
                       return <Item key={index} title={item.title} href={item.href} />;
                     })}
+                    <PlayNow />
                   </ItemWrapper>
                 </Wrapper>
               </Page>

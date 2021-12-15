@@ -1,143 +1,90 @@
-import { icBattery, icFacebook, icReddit, icStay, icTalk, icTelegram, icTwitter } from 'assets/images';
+import { facebook, reddit, telegram, twitter } from 'assets/images';
 import {
   Box,
   ButtonBase,
-  ButtonBaseProps,
   Grid,
-  GridProps,
   IconButton,
   Image,
   Line,
+  LogoWhite,
   Page,
   Stack,
-  StackProps,
   styled,
   Subtitle,
   Text,
-  Title,
-  LogoWhite,
 } from 'components';
-import useDetectDevice from 'hooks/useDetect';
 import React from 'react';
 
 const Wrapper = styled(Box)({
-  backgroundColor: '#242936',
+  backgroundColor: '#120e09',
 });
-
-const SocialWrapper = styled(Box)({
-  backgroundColor: '#1e222d',
-});
-
-const Button = styled((props: ButtonBaseProps) => {
-  return <ButtonBase sx={{ p: 4 }} {...props} />;
-})({});
-
-const GridWrapper = styled((props: GridProps) => {
-  return <Grid spacing={20} container sx={{ py: 10 }} {...props} />;
-})({});
-
-const GridItem = styled((props: StackProps) => {
-  return (
-    <Grid item sm={12} md={3} sx={{ width: '100%' }}>
-      <Stack spacing={5} alignItems="center" textAlign="center" {...props} />
-    </Grid>
-  );
-})({});
-
-const Icon = styled((props: any) => {
-  return <Image height={48} width={48} {...props} />;
-})``;
 
 const Footer: React.FC = () => {
-  const { isMobile } = useDetectDevice();
   return (
     <Wrapper>
       <Page>
-        <Stack direction="row" alignItems="flex-end" justifyContent="space-between" sx={{ py: 10 }}>
-          <LogoWhite />
-          <Stack direction="row" spacing={4}>
-            <Button>
-              <Text>About</Text>
-            </Button>
-            <Button>
-              <Text>Blog</Text>
-            </Button>
-            <Button>
-              <Text>Sitemap</Text>
-            </Button>
-          </Stack>
+        <Stack direction="row" alignItems="center" spacing={4} sx={{ py: 5 }}>
+          <LogoWhite width={36} />
+          <Subtitle>Follow us on social media to get the latest news</Subtitle>
         </Stack>
         <Line height={2} />
-        <GridWrapper>
-          <Grid item sm={12} md={3} sx={{ textAlign: isMobile ? 'center' : 'left' }}>
-            <Stack spacing={5}>
-              <Title>Lorem ipsum dolor sit amet</Title>
-              <Text>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam,
-              </Text>
-            </Stack>
+
+        <Grid container spacing={10} sx={{ py: 20 }}>
+          <Grid item md={4}>
+            <Text>
+              Disclaimer: The Pandora Box token is intended for use as an entry into the gambling that is built into the
+              token code. The Pandora Box token itself provides no inherent value and does not give the user any rights
+              or privileges. Pandora Box is a highly experimental project- please be sure to manage your degree of risk
+              accordingly.
+            </Text>
           </Grid>
-          <GridItem>
-            <Icon src={icBattery} />
-            <Subtitle>Want More?</Subtitle>
-            <Text>amet, consectetur adipisicing elit, sed do eiusmod</Text>
-          </GridItem>
-
-          <GridItem>
-            <Icon src={icTalk} />
-            <Subtitle>Talk to Us?</Subtitle>
-            <Text>amet, consectetur adipisicing elit, sed do eiusmod</Text>
-          </GridItem>
-
-          <GridItem>
-            <Icon src={icStay} />
-            <Subtitle>Stay in Touch?</Subtitle>
-            <Text>amet, consectetur adipisicing elit, sed do eiusmod</Text>
-          </GridItem>
-        </GridWrapper>
+          <Grid item md={8}>
+            <Grid container justifyContent="center" spacing={4}>
+              <IconButton>
+                <Image src={facebook} width={86} height={86} />
+              </IconButton>
+              <IconButton>
+                <Image src={twitter} width={86} height={86} />
+              </IconButton>
+              <IconButton>
+                <Image src={telegram} width={86} height={86} />
+              </IconButton>
+              <IconButton>
+                <Image src={reddit} width={86} height={86} />
+              </IconButton>
+            </Grid>
+          </Grid>
+        </Grid>
       </Page>
-      <SocialWrapper>
+      <Stack sx={{ py: 10, bgcolor: '#000000' }}>
         <Page>
-          <GridWrapper>
-            <Grid item sm={12} md={6}>
-              <Stack spacing={5}>
-                <Stack direction="row" spacing={5}>
-                  <ButtonBase>
-                    <Text>ABOUT US</Text>
-                  </ButtonBase>
-                  <ButtonBase>
-                    <Text>ADVERTISE</Text>
-                  </ButtonBase>
-                  <ButtonBase>
-                    <Text>POLICY</Text>
-                  </ButtonBase>
-                  <ButtonBase>
-                    <Text>BLOG</Text>
-                  </ButtonBase>
-                </Stack>
-                <Text>© 2021 copyright pandora</Text>
-              </Stack>
-            </Grid>
-            <Grid item sm={12} md={6} sx={{ width: '100%' }}>
-              <Stack direction="row" justifyContent={isMobile ? 'center' : 'flex-end'} spacing={1}>
-                <IconButton>
-                  <Icon src={icFacebook} />
-                </IconButton>
-                <IconButton>
-                  <Icon src={icTwitter} />
-                </IconButton>
-                <IconButton>
-                  <Icon src={icTelegram} />
-                </IconButton>
-                <IconButton>
-                  <Icon src={icReddit} />
-                </IconButton>
-              </Stack>
-            </Grid>
-          </GridWrapper>
+          <Stack direction="row" spacing={4}>
+            <ButtonBase>
+              <Text fontWeight="bold" color="#a1a1a1">
+                TERM OF CONDITIONS
+              </Text>
+            </ButtonBase>
+            <ButtonBase>
+              <Text fontWeight="bold" color="#a1a1a1">
+                BETTING RULES
+              </Text>
+            </ButtonBase>
+            <ButtonBase>
+              <Text fontWeight="bold" color="#a1a1a1">
+                POLICY
+              </Text>
+            </ButtonBase>
+            <ButtonBase>
+              <Text fontWeight="bold" color="#a1a1a1">
+                BLOG
+              </Text>
+            </ButtonBase>
+          </Stack>
+          <Stack sx={{ mt: 5 }}>
+            <Text variant="body2">© 2021 copyright pandora</Text>
+          </Stack>
         </Page>
-      </SocialWrapper>
+      </Stack>
     </Wrapper>
   );
 };

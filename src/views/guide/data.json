@@ -1,0 +1,26 @@
+[
+    {
+        "src": "/images/ic-daily-quest.webp",
+        "title": "Daily Quest"
+    },
+    {
+        "src": "/images/ic-event.webp",
+        "title": "Big Event"
+    },
+    {
+        "src": "/images/ic-playing-games.webp",
+        "title": "Vip Ranking Rewards"
+    },
+    {
+        "src": "/images/ic-tournament.webp",
+        "title": "Tournament"
+    },
+    {
+        "src": "/images/ic-referal.webp",
+        "title": "Referal"
+    },
+    {
+        "src": "/images/ic-bounty.webp",
+        "title": "Bounty Program"
+    }
+]

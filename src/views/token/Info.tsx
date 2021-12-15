@@ -8,7 +8,7 @@ const Token: React.FC = () => {
     <Page sx={{ py: 10 }}>
       <Grid container spacing={20}>
         {data.items.map((item, index) => {
-          return <InfoItem key={index} title={item.title} description={item.description} index={index} />;
+          return <InfoItem key={index} {...item} />;
         })}
       </Grid>
     </Page>

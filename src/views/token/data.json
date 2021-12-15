@@ -1,30 +1,30 @@
 {
     "items": [
         {
-            "title": "Completely private",
-            "description": "Bitmin splits apart, encrypts, and distributes your files across a decentralized network. Since you hold the keys, you own your data. No outside company can access or control your files, unlike traditional cloud storage providers."
+            "image": "/images/ic-privacy.webp",
+            "title": "Total privacy",
+            "description": "Ownership of PAN token is completely anonymous."
         },
         {
-            "title": "Completely private",
-            "description": "Bitmin splits apart, encrypts, and distributes your files across a decentralized network. Since you hold the keys, you own your data. No outside company can access or control your files, unlike traditional cloud storage providers."
+            "image": "/images/ic-community.webp",
+            "title": "Community",
+            "description": "We always take feedback, ideas and opinions from players and process them as quickly as possible."
         },
         {
-            "title": "Ultra-fast transactions",
-            "description": "Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds."
+            "image": "/images/ic-diversified.webp",
+            "title": "Diversified",
+            "description": "Player will be individual or group or company."
         },
         {
-            "title": "Ultra-fast transactions",
-            "description": "Transaction speeds are ultra-fast compared to other coins. Simple Payment Verification (SPV) technology allows average transaction confirmation times to drop to ~5 seconds."
+            "image": "/images/ic-transparent.webp",
+            "title": "Transparent",
+            "description": "Transactions are decentralized with results will be public.\nSpecially, Pandora Box eliminates total manipulation from bookies."
         }
     ],
     "earns": [
         {
             "title": "How to Earn",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-        },
-        {
-            "title": "How to Buy",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            "description": "Following on The Pandora Box's ecosytem, player will gain token by farming, airdrop and participating in bounty program."
         }
     ]
 }

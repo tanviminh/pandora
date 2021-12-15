@@ -1,10 +1,11 @@
 import { Stack, styled, Typography } from 'components';
-import React from 'react';
+import useDetectDevice from 'hooks/useDetect';
+import React, { useMemo } from 'react';
 
 const Padora = styled(Typography)`
   background-image: linear-gradient(to top, #b98e3c, #f3eab3), linear-gradient(to bottom, #9fc1ff, #9fc1ff);
   font-family: Roboto;
-  font-size: 4.5rem;
+
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -18,7 +19,7 @@ const Padora = styled(Typography)`
 `;
 const BoxText = styled(Typography)`
   font-family: Roboto;
-  font-size: 4.5rem;
+
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -29,10 +30,17 @@ const BoxText = styled(Typography)`
 `;
 
 const PandoraBox = () => {
+  const { isMobile } = useDetectDevice();
+  const fontSize = useMemo(() => {
+    if (isMobile) {
+      return '4.7rem';
+    }
+    return '6rem';
+  }, [isMobile]);
   return (
     <Stack>
-      <Padora>PANDORA</Padora>
-      <BoxText>COIN</BoxText>
+      <Padora fontSize={fontSize}>PANDORA</Padora>
+      <BoxText fontSize={fontSize}>COIN</BoxText>
     </Stack>
   );
 };

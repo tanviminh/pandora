@@ -1,10 +1,10 @@
-import { bgHomeIntroduction } from 'assets/images';
+import { bgIntroduction } from 'assets/images';
 import { Box, styled, Title } from 'components';
 import React from 'react';
 
 const Wrapper = styled(Box)({
   height: '100vh',
-  backgroundImage: `url(${bgHomeIntroduction})`,
+  backgroundImage: `url(${bgIntroduction})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center',
