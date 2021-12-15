@@ -43,7 +43,7 @@ const PandoraBox = () => {
     if (isMobile) {
       return '3rem';
     }
-    return '6rem';
+    return '5.5rem';
   }, [isMobile]);
   return (
     <Stack direction="row" spacing={2}>
