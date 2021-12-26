@@ -1,8 +1,12 @@
-import { bgIntroduction, icIntroduction } from 'assets/images';
-import { Box, Grid, Image, Page, PandoraBox, Slide, Stack, styled, Subtitle, Text } from 'components';
+import { bgIntroduction } from 'assets/images';
+import { Box, Grid, Page, PandoraBox, Slide, Stack, styled, Subtitle, Text } from 'components';
 import { Android, BuyPandora, Games, IOS, Window } from 'components/actions';
 import useDetectDevice from 'hooks/useDetect';
 import React from 'react';
+import dynamic from 'next/dynamic';
+const SpineAnimation = dynamic(() => import('./SpineAnimation'), {
+  ssr: false,
+});
 
 const Wrapper = styled(Box)({
   minHeight: '100vh',
@@ -20,7 +24,7 @@ const Introduction: React.FC = () => {
   return (
     <Wrapper>
       <Page sx={{ py: 10 }}>
-        <Grid container alignItems="center">
+        <Grid container alignItems="center" direction={isMobile ? 'column-reverse' : 'row'}>
           <Grid item md={5} sm={12} sx={{ py: 20 }}>
             <Slide direction="right" in={true} style={{ transitionDelay: '2000ms' }}>
               <Stack justifyContent="center" spacing={12} sx={{}}>
@@ -36,10 +40,8 @@ const Introduction: React.FC = () => {
               </Stack>
             </Slide>
           </Grid>
-          <Grid item md={7} sm={12} sx={{}}>
-            <Stack justifyContent="center">
-              <Image src={icIntroduction} width="100%" />
-            </Stack>
+          <Grid item md={7} sm={12} sx={{ height: { xs: '50vh', md: '70vh' }, width: '100%' }}>
+            <SpineAnimation />
           </Grid>
         </Grid>
         <Grid container justifyContent="center" spacing={4} sx={{ mt: 10 }}>

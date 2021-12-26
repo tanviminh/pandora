@@ -1,0 +1,83 @@
+
+model.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 809, 168
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 809, 5
+  size: 157, 161
+  orig: 157, 161
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 993, 2
+  size: 173, 165
+  orig: 173, 165
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 993, 169
+  size: 181, 180
+  orig: 181, 180
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 630, 152
+  size: 177, 198
+  orig: 177, 198
+  offset: 0, 0
+  index: -1
+bg1
+  rotate: true
+  xy: 630, 352
+  size: 670, 595
+  orig: 670, 595
+  offset: 0, 0
+  index: -1
+character
+  rotate: true
+  xy: 1227, 601
+  size: 421, 466
+  orig: 421, 466
+  offset: 0, 0
+  index: -1
+fx
+  rotate: true
+  xy: 2, 150
+  size: 872, 626
+  orig: 872, 626
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 230, 63
+  size: 85, 56
+  orig: 85, 56
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 8
+  size: 130, 140
+  orig: 130, 140
+  offset: 0, 0
+  index: -1
+ring
+  rotate: false
+  xy: 134, 54
+  size: 94, 94
+  orig: 94, 94
+  offset: 0, 0
+  index: -1
