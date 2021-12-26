@@ -1,61 +1,66 @@
-import { bgGames } from 'assets/images';
-import { Box, Grid, GridProps, Page, Stack, styled, Title } from 'components';
-import { PlayNow } from 'components/actions';
-import React from 'react';
-import data from './data';
-import Item from './Item';
+import { Box, Page, Stack, styled, Title } from 'components';
+import React, { useMemo, useState } from 'react';
+import Footer from 'views/footer';
+import Header from './Header';
+import List from './List';
+import Menu from './Menu';
+import { GameType } from './types';
 
 const Wrapper = styled(Box)({
   minHeight: '100vh',
-  backgroundImage: `url(${bgGames})`,
-  backgroundSize: 'cover',
-  backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center',
+  background: '#160722',
   position: 'relative',
-  display: 'flex',
-  alignItems: 'center',
 });
 
-const Play = styled(PlayNow)`
-  @keyframes scaleAnimation {
-    0 {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.1);
+const TitleAnimated = styled(Title)`
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
     }
     100% {
-      transform: scale(1);
+      opacity: 1;
     }
   }
-  :hover {
-    animation: none;
-  }
-  animation: scaleAnimation 1s infinite;
+  animation: fadeIn linear 0.4s;
 `;
 
-const ItemWrapper = styled((props: GridProps) => {
-  return <Grid item alignItems="center" justifyContent="center" display="flex" md={4} {...props} />;
-})``;
-
 const Games: React.FC = () => {
+  const [type, setType] = useState<GameType>('ALL');
+
+  const title = useMemo(() => {
+    if (type === 'ALL') {
+      return 'All Games';
+    }
+    if (type === 'SLOT') {
+      return 'Slot Machine';
+    }
+    if (type === 'TABLE') {
+      return 'Table Game';
+    }
+    if (type === 'SKILL') {
+      return 'Skill Game';
+    }
+    if (type === 'CARD') {
+      return 'Card Game';
+    }
+    if (type === 'MINI') {
+      return 'Mini Game';
+    }
+  }, [type]);
   return (
-    <Wrapper id="games">
+    <Wrapper>
+      <Header />
       <Page>
-        <Stack alignItems="center" spacing={10} sx={{ py: 20 }}>
-          <Title fontWeight="bold">GAMES</Title>
-          <Grid container justifyContent="center">
-            {data.map((item, index) => {
-              return (
-                <ItemWrapper key={index}>
-                  <Item {...item} />
-                </ItemWrapper>
-              );
-            })}
-          </Grid>
-          <Play />
+        <Stack direction="row" alignItems="flex-start" spacing={5} sx={{ my: 20 }}>
+          <Menu type={type} setType={setType} />
+          <Stack spacing={10} flex={1}>
+            <TitleAnimated key={type}>{title}</TitleAnimated>
+
+            <List type={type} />
+          </Stack>
         </Stack>
       </Page>
+      <Footer />
     </Wrapper>
   );
 };

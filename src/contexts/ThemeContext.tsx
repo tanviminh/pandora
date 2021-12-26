@@ -15,7 +15,7 @@ const styles: ThemeOptions = {
     },
     divider: '#373e52',
     background: {
-      default: '#2a2935',
+      default: '#160722',
       paper: '#111121',
     },
     text: {

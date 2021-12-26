@@ -5,7 +5,7 @@ import React from 'react';
 const Page: React.FC<BoxProps> = (props) => {
   return (
     <Container maxWidth="xl">
-      <Box overflow="hidden" {...props} />
+      <Box {...props} />
     </Container>
   );
 };

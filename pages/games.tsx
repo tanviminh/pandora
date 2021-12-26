@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from '../src/views/home';
+import Games from '../src/views/games';
 import Head from 'next/head';
 
 const Page: React.FC = () => {
@@ -8,7 +8,7 @@ const Page: React.FC = () => {
       <Head>
         <title>Pandora | Games</title>
       </Head>
-      <Home />
+      <Games />
     </>
   );
 };

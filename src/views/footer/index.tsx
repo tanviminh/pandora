@@ -29,8 +29,8 @@ const Footer: React.FC = () => {
         </Stack>
         <Line height={2} />
 
-        <Grid container spacing={10} sx={{ py: 20 }}>
-          <Grid item md={4}>
+        <Grid container spacing={20} sx={{ py: 20 }}>
+          <Grid item md={5} xs={12}>
             <Text>
               Disclaimer: The Pandora Box token is intended for use as an entry into the gambling that is built into the
               token code. The Pandora Box token itself provides no inherent value and does not give the user any rights
@@ -38,20 +38,28 @@ const Footer: React.FC = () => {
               accordingly.
             </Text>
           </Grid>
-          <Grid item md={8}>
+          <Grid item md={7} xs={12}>
             <Grid container justifyContent="center" spacing={4}>
-              <IconButton>
-                <Image src={facebook} width={86} height={86} />
-              </IconButton>
-              <IconButton>
-                <Image src={twitter} width={86} height={86} />
-              </IconButton>
-              <IconButton>
-                <Image src={telegram} width={86} height={86} />
-              </IconButton>
-              <IconButton>
-                <Image src={reddit} width={86} height={86} />
-              </IconButton>
+              <Grid item>
+                <IconButton>
+                  <Image src={facebook} width={86} height={86} />
+                </IconButton>
+              </Grid>
+              <Grid item>
+                <IconButton>
+                  <Image src={twitter} width={86} height={86} />
+                </IconButton>
+              </Grid>
+              <Grid item>
+                <IconButton>
+                  <Image src={telegram} width={86} height={86} />
+                </IconButton>
+              </Grid>
+              <Grid item>
+                <IconButton>
+                  <Image src={reddit} width={86} height={86} />
+                </IconButton>
+              </Grid>
             </Grid>
           </Grid>
         </Grid>

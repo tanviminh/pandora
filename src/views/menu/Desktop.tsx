@@ -21,7 +21,7 @@ function HideOnScroll(props: Props) {
 
 const Wrapper = styled((props: StackProps) => {
   return (
-    <Stack direction="row" justifyContent="space-between" alignItems="center" flex={1} sx={{ py: 8 }} {...props} />
+    <Stack direction="row" justifyContent="space-between" alignItems="center" flex={1} sx={{ py: 4 }} {...props} />
   );
 })({});
 
