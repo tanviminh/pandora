@@ -5,7 +5,7 @@ import Base from './BaseButton';
 const Action: React.FC = (props) => {
   return (
     <Base
-      src="./images/play-now.webp"
+      src="/images/play-now.webp"
       onClick={() => {
         info('click!');
       }}

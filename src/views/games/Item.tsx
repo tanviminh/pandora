@@ -1,5 +1,6 @@
 import { Box, Stack, styled, Image, Text, ButtonBase, Grow } from 'components';
-import React, { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
+import React, { useCallback, useEffect, useState } from 'react';
 
 const Wrapper = styled(ButtonBase)`
   border-radius: 16px;
@@ -51,18 +52,23 @@ interface Props {
   description: string;
   background: string;
   icon: string;
-  infomations: Array<{ key: string; value: string }>;
+  informations: Array<{ key: string; value: string }>;
   color: string;
   index: number;
 }
 
 const Item: React.FC<Props> = (props) => {
+  const router = useRouter();
   const [render, setRender] = useState(false);
-  const { title, description, background, infomations, icon, color, index, id } = props;
+  const { title, description, background, informations, icon, color, index, id } = props;
 
   useEffect(() => {
     setRender(true);
   }, []);
+
+  const handleClick = useCallback(() => {
+    router.push(`/detail/${id}`);
+  }, [id, router]);
 
   if (!render) {
     return null;
@@ -71,7 +77,7 @@ const Item: React.FC<Props> = (props) => {
   const delay = index * 100;
   return (
     <Grow in={true} key={id} style={{ transitionDelay: `${delay}ms` }}>
-      <Wrapper>
+      <Wrapper onClick={handleClick}>
         <Stack sx={{ paddingTop: '80%', position: 'relative' }}>
           <Background className="background" src={background} />
           <Stack sx={{ p: 4 }}></Stack>
@@ -87,7 +93,7 @@ const Item: React.FC<Props> = (props) => {
               </Stack>
 
               <Stack direction="row" zIndex={1} spacing={4} justifyContent="space-between">
-                {infomations.map((item, index) => {
+                {informations.map((item, index) => {
                   return (
                     <Stack key={index}>
                       <Text fontWeight="bold">{item.key}</Text>

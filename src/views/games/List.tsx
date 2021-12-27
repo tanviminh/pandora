@@ -1,8 +1,7 @@
 import { Box, Grid, styled } from 'components';
 import React, { useMemo } from 'react';
 import Item from './Item';
-import data from './data.json';
-
+import data from 'assets/data/game.json';
 const Wrapper = styled(Box)({});
 
 const List: React.FC<{ type: string }> = ({ type }) => {

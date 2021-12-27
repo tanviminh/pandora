@@ -1,11 +1,11 @@
 import { Box, ButtonBase, Image, Stack, styled, Text } from 'components';
 import React, { Dispatch, SetStateAction } from 'react';
-import data from './data.json';
+import data from 'assets/data/game.json';
 import { GameType } from './types';
 
 const Wrapper = styled(Box)`
   position: sticky;
-  top: 100px;
+  top: 140px;
 `;
 
 const Menu: React.FC<{ type: string; setType: Dispatch<SetStateAction<GameType>> }> = ({ type, setType }) => {
@@ -25,7 +25,7 @@ const Menu: React.FC<{ type: string; setType: Dispatch<SetStateAction<GameType>>
                 setType(item.type as GameType);
               }}
             >
-              <Stack direction="row" alignItems="center" spacing={4} p={4} sx={{ opacity: active ? 1 : 0.5 }}>
+              <Stack direction="row" alignItems="center" spacing={4} p={2} sx={{ opacity: active ? 1 : 0.5 }}>
                 <Image src={icon} width={28} />
                 <Text fontWeight="bold" sx={{ display: { xs: 'none', md: 'flex' } }}>
                   {title}
