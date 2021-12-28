@@ -18,16 +18,16 @@ const Desktop: React.FC = () => {
       <Page overflow="hidden">
         <Stack spacing={4} sx={{ py: 10 }}>
           <PandoraToken />
+          <Item type="play" />
+          <Item type="trade" />
+          <Item type="bounty" />
+
           <Stack spacing={4} alignItems="center">
-            <PlayToEarn />
             <Arrow />
             <Coin />
             <Arrow />
           </Stack>
-
-          <Item type="play" />
-          <Item type="trade" />
-          <Item type="exchange" />
+          <PlayToEarn />
         </Stack>
       </Page>
     </Wrapper>

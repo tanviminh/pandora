@@ -13,7 +13,7 @@ const Wrapper = styled(Box)({
   backgroundImage: `url(${bgIntroduction})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
-  backgroundPosition: 'center',
+  backgroundPosition: 'bottom',
   position: 'relative',
   display: 'flex',
   alignItems: 'center',

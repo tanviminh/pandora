@@ -16,22 +16,17 @@ const Dot = styled((props: TypographyProps) => {
       sx={{
         width: 60,
         height: 60,
-        backgroundImage: 'linear-gradient(to top, #b7a439, #7c6009)',
-        borderRadius: 100,
+        backgroundImage: `url(${'/images/ic-roadmap.webp'})`,
+        backgroundSize: 'contain',
       }}
     >
-      <Stack
-        alignItems="center"
-        justifyContent="center"
-        sx={{
-          width: 44,
-          height: 44,
-          border: '3px solid #ffffff',
-          borderRadius: 100,
-          position: 'absolute',
-        }}
-      ></Stack>
-      <Subtitle color="primary.main" fontWeight="bold" {...props} />
+      <Subtitle
+        color="white"
+        fontWeight="bold"
+        fontSize={24}
+        sx={{ WebkitTextStroke: '2px rgba(40, 37, 26, 0.32)' }}
+        {...props}
+      />
     </Stack>
   );
 })({});

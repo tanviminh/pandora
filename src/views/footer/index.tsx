@@ -16,7 +16,7 @@ import {
 import React from 'react';
 
 const Wrapper = styled(Box)({
-  backgroundColor: '#120e09',
+  backgroundColor: '#120911',
 });
 
 const Footer: React.FC = () => {

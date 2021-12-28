@@ -3,7 +3,7 @@ import React from 'react';
 import data from './data.json';
 
 const Wrapper = styled(Box)`
-  background-color: #1c170a;
+  background-color: #1c0a1b;
 `;
 
 const ContentWrapper = styled((props: StackProps) => {

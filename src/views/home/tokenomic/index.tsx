@@ -1,5 +1,5 @@
 import { bgTokenomic, icTokenomic } from 'assets/images';
-import { Box, Image, Page, Stack, StackProps, styled, Subtitle, Title } from 'components';
+import { Box, Image, Page, Stack, StackProps, styled, Title } from 'components';
 import useDetectDevice from 'hooks/useDetect';
 import React from 'react';
 
@@ -26,7 +26,6 @@ const Tokenomic = () => {
         <Stack spacing={20} sx={{ py: 10 }}>
           <TitleWrapper>
             <Title>TOKENOMICS</Title>
-            <Subtitle>1.000.000.000 token</Subtitle>
           </TitleWrapper>
           <Stack alignItems="center" justifyContent="center">
             <Image src={icTokenomic} width={isMobile ? '95%' : '60%'} />

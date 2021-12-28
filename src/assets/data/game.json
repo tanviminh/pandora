@@ -35,7 +35,7 @@
         {
             "id": 1,
             "href": "/detail/fish-shooting",
-            "title": "Fish Shooting Game",
+            "title": "Fish Shooting",
             "type": "SKILL",
             "description": "An amazing fish-catching, shooting game with amazing features.",
             "background": "/images/game/bg-fish.webp",
