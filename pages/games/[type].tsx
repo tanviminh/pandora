@@ -1,14 +1,14 @@
-import React from 'react';
-import Games from '../src/views/games';
 import Head from 'next/head';
+import React from 'react';
+import Game from '../../src/views/games';
 
 const Page: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Pandora | Games</title>
+        <title>Game</title>
       </Head>
-      <Games />
+      <Game />
     </>
   );
 };

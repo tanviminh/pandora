@@ -1,1 +1,1 @@
-export type GameType = 'ALL' | 'SLOT' | 'TABLE' | 'SKILL' | 'CARD' | 'MINI';
+export type GameType = 'all' | 'hot' | 'slot' | 'table' | 'skill' | 'card' | 'mini';

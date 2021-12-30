@@ -1,0 +1,51 @@
+{
+    "categories": [
+        {
+            "title": "Slot Machine",
+            "href": "/games?type=slot",
+            "description": "Generating random combinations of symbols on a dial, certain combinations winning varying amounts of money for the player",
+            "icon1": "/images/game/ic-vikings.webp",
+            "icon2": "/images/game/ic-galaxy.webp",
+            "icon3": "/images/game/ic-cowboy.webp",
+            "icon4": "/images/game/ic-aladdin.webp",
+            "icon5": "/images/game/ic-dragon-large.webp"
+        },
+        {
+            "title": "Table Game",
+            "href": "/games?type=table",
+            "description": "Generating random combinations of symbols on a dial, certain combinations winning varying amounts of money for the player",
+            "icon1": "/images/game/ic-high-low.webp",
+            "icon2": "/images/game/ic-3cards.webp",
+            "icon3": "/images/game/ic-mini-poker.webp",
+            "icon4": "/images/game/ic-lucky-dice.webp",
+            "icon5": "/images/game/ic-dice-large.webp"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "title": "Fish Hunter",
+            "background": "/images/game/banner-fish-hunter.webp"
+        },
+        {
+            "id": 15,
+            "title": "High Low",
+            "background": "/images/game/banner-high-low.webp"
+        },
+        {
+            "id": 12,
+            "title": "Sky Earth",
+            "background": "/images/game/banner-sky-earth.webp"
+        },
+        {
+            "id": 16,
+            "title": "Mini Poker",
+            "background": "/images/game/banner-mini-poker.webp"
+        },
+        {
+            "id": 14,
+            "title": "3 Cards",
+            "background": "/images/game/banner-3-cards.webp"
+        }
+    ]
+}

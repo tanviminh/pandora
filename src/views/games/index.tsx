@@ -1,10 +1,12 @@
+import data from 'assets/data/game.json';
 import { Box, Page, Stack, styled, Title } from 'components';
-import React, { useMemo, useState } from 'react';
+import { useRouter } from 'next/router';
+import React, { useMemo } from 'react';
 import Footer from 'views/footer';
 import Header from './Header';
+import Hot from './hot';
 import List from './List';
 import Menu from './Menu';
-import { GameType } from './types';
 
 const Wrapper = styled(Box)({
   minHeight: '100vh',
@@ -25,39 +27,44 @@ const TitleAnimated = styled(Title)`
 `;
 
 const Games: React.FC = () => {
-  const [type, setType] = useState<GameType>('ALL');
+  const { query } = useRouter();
+  const type = (query.type as string) || 'hot';
 
   const title = useMemo(() => {
-    if (type === 'ALL') {
-      return 'All Games';
+    let game = data.menus.find((item) => {
+      return item.type === type;
+    });
+    if (!game) {
+      game = data.menus[0];
     }
-    if (type === 'SLOT') {
-      return 'Slot Machine';
-    }
-    if (type === 'TABLE') {
-      return 'Table Game';
-    }
-    if (type === 'SKILL') {
-      return 'Skill Game';
-    }
-    if (type === 'CARD') {
-      return 'Card Game';
-    }
-    if (type === 'MINI') {
-      return 'Mini Game';
-    }
+    return game.title;
   }, [type]);
+
+  // useEffect(() => {
+  //   const title = document.getElementById('game-title');
+  //   if (!title) {
+  //     return;
+  //   }
+
+  //   title.scrollIntoView({ behavior: 'smooth' });
+  // }, [query]);
+
   return (
     <Wrapper>
       <Header />
       <Page>
-        <Stack direction="row" alignItems="flex-start" spacing={5} sx={{ my: 20 }}>
-          <Menu type={type} setType={setType} />
-          <Stack spacing={10} flex={1}>
-            <TitleAnimated key={type}>{title}</TitleAnimated>
-
-            <List type={type} />
-          </Stack>
+        <Stack direction="row" alignItems="flex-start" spacing={5} sx={{ py: 20 }}>
+          <Menu type={type} />
+          {type === 'hot' ? (
+            <Hot />
+          ) : (
+            <Stack spacing={10} flex={1}>
+              <TitleAnimated id="game-title" key={type}>
+                {title}
+              </TitleAnimated>
+              <List type={type} />
+            </Stack>
+          )}
         </Stack>
       </Page>
       <Footer />

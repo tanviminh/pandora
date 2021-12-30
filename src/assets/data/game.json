@@ -1,32 +1,37 @@
 {
     "menus": [
         {
-            "type": "ALL",
+            "type": "hot",
+            "icon": "/images/game/ic-hot.webp",
+            "title": "Hot"
+        },
+        {
+            "type": "all",
             "icon": "/images/game/ic-allgames.webp",
             "title": "All Games"
         },
         {
-            "type": "SLOT",
+            "type": "slot",
             "icon": "/images/game/ic-slotmachine.webp",
             "title": "Slot Machine"
         },
         {
-            "type": "TABLE",
+            "type": "table",
             "icon": "/images/game/ic-tablegame.webp",
             "title": "Table Game"
         },
         {
-            "type": "SKILL",
+            "type": "skill",
             "icon": "/images/game/ic-skillgame.webp",
             "title": "Skill Game"
         },
         {
-            "type": "CARD",
+            "type": "card",
             "icon": "/images/game/ic-cardgame.webp",
             "title": "Card Game"
         },
         {
-            "type": "MINI",
+            "type": "mini",
             "icon": "/images/game/ic-minigame.webp",
             "title": "Mini Game"
         }
@@ -36,7 +41,7 @@
             "id": 1,
             "href": "/detail/fish-shooting",
             "title": "Fish Shooting",
-            "type": "SKILL",
+            "type": "skill",
             "description": "An amazing fish-catching, shooting game with amazing features.",
             "background": "/images/game/bg-fish.webp",
             "icon": "/images/game/ic-fish.webp",
@@ -66,10 +71,11 @@
             "id": 2,
             "href": "/detail/kungfu-panda",
             "title": "Kung Fu Panda",
-            "type": "SLOT",
+            "type": "slot",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-kungfu.webp",
             "icon": "/images/game/ic-kungfu.webp",
+            "banner": "/images/game/banner-kungfu.webp",
             "color": "#530306",
             "informations": [
                 {
@@ -96,7 +102,7 @@
             "id": 3,
             "href": "/detail/aladdin",
             "title": "Aladdin",
-            "type": "SLOT",
+            "type": "slot",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-aladdin.webp",
             "icon": "/images/game/ic-aladdin.webp",
@@ -126,7 +132,7 @@
             "id": 4,
             "href": "/detail/galaxy",
             "title": "Galaxy",
-            "type": "SLOT",
+            "type": "slot",
             "description": "An amazing fish-catching, shooting game with amazing features.",
             "background": "/images/game/bg-galaxy.webp",
             "icon": "/images/game/ic-galaxy.webp",
@@ -156,7 +162,7 @@
             "id": 5,
             "href": "/detail/ice",
             "title": "Ice",
-            "type": "SLOT",
+            "type": "slot",
             "description": "An amazing fish-catching, shooting game with amazing features.",
             "background": "/images/game/bg-ice.webp",
             "icon": "/images/game/ic-ice.webp",
@@ -186,7 +192,7 @@
             "id": 6,
             "href": "/detail/vikings",
             "title": "Vikings",
-            "type": "SLOT",
+            "type": "slot",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-vikings.webp",
             "icon": "/images/game/ic-vikings.webp",
@@ -216,7 +222,7 @@
             "id": 7,
             "href": "/detail/dragon",
             "title": "Dragon",
-            "type": "SLOT",
+            "type": "slot",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-dragon.webp",
             "icon": "/images/game/ic-dragon.webp",
@@ -246,7 +252,7 @@
             "id": 8,
             "href": "/detail/cowboy",
             "title": "Cowboy",
-            "type": "SLOT",
+            "type": "slot",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-cowboy.webp",
             "icon": "/images/game/ic-cowboy.webp",
@@ -276,7 +282,7 @@
             "id": 9,
             "href": "/detail/diamonds",
             "title": "Diamonds",
-            "type": "MINI",
+            "type": "mini",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-diamonds.webp",
             "icon": "/images/game/ic-diamonds.webp",
@@ -306,7 +312,7 @@
             "id": 10,
             "href": "/detail/minions",
             "title": "Minions",
-            "type": "MINI",
+            "type": "mini",
             "description": "An amazing fish-catching, shooting game with amazing features.",
             "background": "/images/game/bg-minion.webp",
             "icon": "/images/game/ic-minion.webp",
@@ -336,7 +342,7 @@
             "id": 11,
             "href": "/detail/gems",
             "title": "Gems",
-            "type": "MINI",
+            "type": "mini",
             "description": "An amazing fish-catching, shooting game with amazing features.",
             "background": "/images/game/bg-gems.webp",
             "icon": "/images/game/ic-gems.webp",
@@ -366,7 +372,7 @@
             "id": 12,
             "href": "/detail/sky-earth",
             "title": "Sky Earth",
-            "type": "TABLE",
+            "type": "table",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-sky-earth.webp",
             "icon": "/images/game/ic-sky-earth.webp",
@@ -396,10 +402,11 @@
             "id": 13,
             "href": "/detail/lucky-dice",
             "title": "Lucky Dice",
-            "type": "TABLE",
+            "type": "table",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-lucky-dice.webp",
             "icon": "/images/game/ic-lucky-dice.webp",
+            "banner": "/images/game/banner-dice.webp",
             "color": "#533f04",
             "informations": [
                 {
@@ -425,8 +432,8 @@
         {
             "id": 14,
             "href": "/detail/3cards",
-            "title": "Mini Poker",
-            "type": "CARD",
+            "title": "3 Cards",
+            "type": "card",
             "description": "A slot machine is a gambling game with spinning reels.",
             "background": "/images/game/bg-3cards.webp",
             "icon": "/images/game/ic-3cards.webp",
@@ -448,9 +455,69 @@
             "gameType": "Video Slots, 3D Games",
             "phone": "/images/game/ic-phone-kungfu.webp",
             "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
-            "iconLeft": "/images/game/ic-poker-left.webp",
-            "iconRight": "/images/game/ic-poker-right.webp",
-            "iconFull": "/images/game/ic-poker-full.webp"
+            "iconLeft": "/images/game/ic-3cards-left.webp",
+            "iconRight": "/images/game/ic-3cards-right.webp",
+            "iconFull": "/images/game/ic-3cards-full.webp"
+        },
+        {
+            "id": 15,
+            "href": "",
+            "title": "High Low",
+            "type": "card",
+            "description": "A slot machine is a gambling game with spinning reels.",
+            "background": "/images/game/bg-high-low.webp",
+            "icon": "/images/game/ic-high-low.webp",
+            "color": "#533f04",
+            "informations": [
+                {
+                    "key": "MEDIUM",
+                    "value": "Volatility"
+                },
+                {
+                    "key": "98,23%",
+                    "value": "RTP"
+                },
+                {
+                    "key": "x22000",
+                    "value": "Maximum Win"
+                }
+            ],
+            "gameType": "Video Slots, 3D Games",
+            "phone": "/images/game/ic-phone.webp",
+            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "iconLeft": "/images/game/ic-high-low-left.webp",
+            "iconRight": "/images/game/ic-high-low-right.webp",
+            "iconFull": "/images/game/ic-high-low-full.webp"
+        },
+        {
+            "id": 16,
+            "href": "",
+            "title": "Mini Poker",
+            "type": "card",
+            "description": "A slot machine is a gambling game with spinning reels.",
+            "background": "/images/game/bg-mini-poker.webp",
+            "icon": "/images/game/ic-mini-poker.webp",
+            "color": "#530207",
+            "informations": [
+                {
+                    "key": "MEDIUM",
+                    "value": "Volatility"
+                },
+                {
+                    "key": "98,23%",
+                    "value": "RTP"
+                },
+                {
+                    "key": "x22000",
+                    "value": "Maximum Win"
+                }
+            ],
+            "gameType": "Video Slots, 3D Games",
+            "phone": "/images/game/ic-phone.webp",
+            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "iconLeft": "/images/game/ic-mini-poker-left.webp",
+            "iconRight": "/images/game/ic-mini-poker-right.webp",
+            "iconFull": "/images/game/ic-mini-poker-full.webp"
         }
     ]
 }
