@@ -41,7 +41,7 @@ const Item: React.FC<ItemProps> = (props) => {
       <TimelineOppositeContent>
         <Text>{description}</Text>
       </TimelineOppositeContent>
-      <TimelineSeparator sx={{ minHeight: 140 }}>
+      <TimelineSeparator sx={{ minHeight: 120 }}>
         <Dot>{phase}</Dot>
         {!isLast && <TimelineConnector sx={{ width: 6, bgcolor: 'white' }} />}
       </TimelineSeparator>

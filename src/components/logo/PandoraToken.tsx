@@ -32,7 +32,7 @@ const PandoraBox = () => {
   return (
     <Stack direction="row" justifyContent="center" spacing={2}>
       <Padora>PANDORA</Padora>
-      <BoxText>TOKEN</BoxText>
+      <BoxText>ECOSYSTEM</BoxText>
     </Stack>
   );
 };

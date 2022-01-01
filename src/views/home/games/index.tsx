@@ -1,6 +1,6 @@
 import { bgGames } from 'assets/images';
 import { Box, Grid, GridProps, Page, Stack, styled, Title } from 'components';
-import { PlayNow } from 'components/actions';
+import { PlayMore } from 'components/actions';
 import React from 'react';
 import data from './data';
 import Item from './Item';
@@ -16,7 +16,7 @@ const Wrapper = styled(Box)({
   alignItems: 'center',
 });
 
-const Play = styled(PlayNow)`
+const Play = styled(PlayMore)`
   @keyframes scaleAnimation {
     0 {
       transform: scale(1);

@@ -18,7 +18,7 @@ const Arrow = styled((props) => {
 
 const Desktop: React.FC = () => {
   return (
-    <Wrapper id="guide">
+    <Wrapper id="ecosystem">
       <Page>
         <Stack spacing={12} alignItems="center" sx={{ py: 10 }}>
           <PandoraToken />

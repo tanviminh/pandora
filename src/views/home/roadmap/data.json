@@ -3,44 +3,38 @@
         {
             "phase": 1,
             "title": "PHASE 1",
-            "subtitle": "October 2021",
-            "description": "- Open beta centralize games\n- Run full centralize games platform"
+            "subtitle": "Q4/2021",
+            "description": "Open beta centralize game platfrom"
         },
         {
             "phase": 2,
             "title": "PHASE 2",
-            "subtitle": "October 2021",
-            "description": "- Introduce XYZ token\n- Integration XYZ token to games platform"
+            "subtitle": "Q4/2021",
+            "description": "Introduce PAN token, play to earn ecosystem"
         },
         {
             "phase": 3,
             "title": "PHASE 3",
-            "subtitle": "November 2021",
-            "description": "- Decentralize slot machine\n- Decentralize bacarat\n- Decentralize blackjack"
+            "subtitle": "Q1/2022",
+            "description": "Make our game decentralized"
         },
         {
             "phase": 4,
             "title": "PHASE 4",
-            "subtitle": "December 2021",
-            "description": "- Decentralize sea fish shooter\n- Decentralize predict market"
+            "subtitle": "Q2/2022",
+            "description": "Decentralize poker"
         },
         {
             "phase": 5,
             "title": "PHASE 5",
-            "subtitle": "January - February 2022",
-            "description": "- Decentralize poker"
+            "subtitle": "Q3/2022",
+            "description": "Decenralize sport betting"
         },
         {
             "phase": 6,
             "title": "PHASE 6",
-            "subtitle": "March – May 2022",
-            "description": "- Decentralize spot betting\n- Everyone is able to become dealer"
-        },
-        {
-            "phase": 7,
-            "title": "PHASE 7",
-            "subtitle": "",
-            "description": "- Metaverse Casino"
+            "subtitle": "Q4/2022",
+            "description": "Everyone is able to become dealer, metaverse casino"
         }
     ]
 }

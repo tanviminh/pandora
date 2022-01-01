@@ -1,28 +1,28 @@
 {
     "items": [
         {
-            "title": "HOME",
-            "href": "/"
-        },
-        {
             "title": "ECOSYSTEM",
-            "href": "/news"
+            "href": "/ecosystem"
         },
         {
             "title": "GAMES",
             "href": "/games"
         },
         {
-            "title": "TOKEN",
-            "href": "/token"
+            "title": "PANDOVERSE",
+            "href": "/"
+        },
+        {
+            "title": "PAN",
+            "href": "/tokenomics"
         },
         {
             "title": "ROADMAP",
             "href": "/roadmap"
         },
         {
-            "title": "INDUSTRY",
-            "href": "/industry"
+            "title": "DOCS",
+            "href": "/docs"
         }
     ]
 }

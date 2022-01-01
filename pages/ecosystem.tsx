@@ -6,7 +6,7 @@ const Page: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Pandora | Home</title>
+        <title>Pandora | Ecosystem</title>
       </Head>
       <Home />
     </>

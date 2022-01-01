@@ -21,7 +21,7 @@ const TitleWrapper = styled((props: StackProps) => {
 const Tokenomic = () => {
   const { isMobile } = useDetectDevice();
   return (
-    <Wrapper id="tokenomic">
+    <Wrapper id="tokenomics">
       <Page>
         <Stack spacing={20} sx={{ py: 10 }}>
           <TitleWrapper>

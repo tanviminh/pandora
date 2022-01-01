@@ -31,7 +31,7 @@ const Introduction: React.FC = () => {
                 <PandoraBox />
                 <Stack spacing={4}>
                   <Subtitle sx={{ fontWeight: 'bold' }}>Gamble transparently with crypto</Subtitle>
-                  <Text>Join one of the most rapidly growing industry and help to make this world greener.</Text>
+                  <Text>Join the revolution of metaverse gambling world, free to play and earn real value crypto</Text>
                 </Stack>
                 <Grid container spacing={0} justifyContent={isMobile ? 'center' : 'flex-start'}>
                   <Games />

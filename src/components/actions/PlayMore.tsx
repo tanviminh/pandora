@@ -8,7 +8,7 @@ const Action: React.FC = (props) => {
   const handleClick = useCallback(() => {
     router.push('/games');
   }, [router]);
-  return <Base src="/images/play-now.webp" onClick={handleClick} {...props} />;
+  return <Base src="/images/play-more.webp" onClick={handleClick} {...props} />;
 };
 
 export default React.memo(Action);
