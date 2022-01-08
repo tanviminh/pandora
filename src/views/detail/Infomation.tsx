@@ -18,7 +18,7 @@ const Information: React.FC = () => {
   if (!game) {
     return null;
   }
-  const { title, icon, fullDescription } = game;
+  const { title, icon, hows, description } = game;
 
   return (
     <Stack spacing={10}>
@@ -26,7 +26,22 @@ const Information: React.FC = () => {
         <Image src={icon} width={100} />
         <Title>{title}</Title>
       </Stack>
-      <Text lineHeight={2}>{fullDescription}</Text>
+      <Text lineHeight={2}>{description}</Text>
+      <Stack spacing={2}>
+        <Title>➥ How to play</Title>
+
+        {hows &&
+          hows.map((item, index) => {
+            if (item.type === 'text') {
+              return (
+                <Text key={index} lineHeight={2}>
+                  {item.content}
+                </Text>
+              );
+            }
+            return null;
+          })}
+      </Stack>
     </Stack>
   );
 };

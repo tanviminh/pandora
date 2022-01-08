@@ -30,8 +30,46 @@ const Left = styled(Image)`
       transform: translateX(0px);
     }
   }
+  @keyframes shake {
+    0% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+    10% {
+      transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+      transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+      transform: translate(3px, 2px) rotate(0deg);
+    }
+    40% {
+      transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+      transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+      transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+      transform: translate(3px, 1px) rotate(-1deg);
+    }
+    80% {
+      transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+      transform: translate(1px, 2px) rotate(0deg);
+    }
+    100% {
+      transform: translate(1px, 1px) rotate(0deg);
+    }
+  }
 
-  animation: animatedLeft 1s;
+  animation-name: animatedLeft, shake;
+  animation-delay: 0s, 1s;
+  animation-duration: 0.5s, 1s;
+  animation-iteration-count: 1, infinite;
 `;
 
 const Right = styled(Image)`
@@ -64,7 +102,23 @@ const Full = styled(Image)`
     }
   }
 
-  animation: animatedFull 0.5s;
+  @keyframes animatedScale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    ,
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  animation-name: animatedFull, animatedScale;
+  animation-delay: 0s, 1s;
+  animation-duration: 0.5s, 5s;
+  animation-iteration-count: 1, infinite;
 `;
 
 const Header: React.FC = () => {

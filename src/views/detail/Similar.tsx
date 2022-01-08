@@ -1,4 +1,4 @@
-import { Grid, Image, Line, Stack, Subtitle, Text, ButtonBase, styled } from 'components';
+import { Grid, Image, Line, Stack, Subtitle, Text, ButtonBase, styled, Box } from 'components';
 import React from 'react';
 
 import data from 'assets/data/game.json';
@@ -14,9 +14,9 @@ const Button = styled(ButtonBase)`
 `;
 
 const Similar: React.FC = () => {
-  const { query } = useRouter();
+  const router = useRouter();
   const index = data.games.findIndex((item) => {
-    return item.id === Number(query.id);
+    return item.id === Number(router.query.id);
   });
   const parseArr = [...data.games];
   if (index < 0) {
@@ -31,20 +31,27 @@ const Similar: React.FC = () => {
     <Stack sx={{ mt: 5 }}>
       <Subtitle>Similar Games</Subtitle>
       <Line height={2} my={10} />
-      <Grid container justifyContent="space-between" spacing={4}>
-        {subArr.map((item, index) => {
-          return (
-            <Grid item key={index}>
-              <Button sx={{ p: 4 }}>
-                <Stack alignItems="center">
-                  <Image src={item.icon} width={100} />
-                  <Text>{item.title}</Text>
-                </Stack>
-              </Button>
-            </Grid>
-          );
-        })}
-      </Grid>
+      <Box>
+        <Grid container justifyContent="space-between" spacing={4}>
+          {subArr.map((item, index) => {
+            return (
+              <Grid item key={index}>
+                <Button
+                  onClick={() => {
+                    router.push(`/detail/${item.id}`);
+                  }}
+                  sx={{ p: 4 }}
+                >
+                  <Stack alignItems="center">
+                    <Image src={item.icon} width={100} />
+                    <Text>{item.title}</Text>
+                  </Stack>
+                </Button>
+              </Grid>
+            );
+          })}
+        </Grid>
+      </Box>
     </Stack>
   );
 };

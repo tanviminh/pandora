@@ -61,7 +61,7 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
+            "phone": "/images/game/ic-phone.webp",
             "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
             "iconLeft": "/images/game/ic-fishing-left.webp",
             "iconRight": "/images/game/ic-fishing-right.webp",
@@ -72,7 +72,7 @@
             "href": "/detail/kungfu-panda",
             "title": "Kung Fu Panda",
             "type": "slot",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "Very exciting Kungfu Panda theme SLOT GAME. One of five reels slot games we develop to bring more winning lines for players . You love Panda, now you will love them more because of the multipliers they give!",
             "background": "/images/game/bg-kungfu.webp",
             "icon": "/images/game/ic-kungfu.webp",
             "banner": "/images/game/banner-kungfu.webp",
@@ -92,8 +92,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "Here it comes 5 reels with 25 lines to win.\n⦿ Step 1: Choose a bet among 4 levels\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Hit Spin icon and wait for the result\nIn main round, we have 7 Kungfu Panda normal symbols and 3 special symbols: Jackpot, Wild, Freespin, Bonus\nBesides, there are two mini games: Free spin with a different pack of items from the main round and Bonus section with opening randomly chests."
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-kungfu-left.webp",
             "iconRight": "/images/game/ic-kungfu-right.webp",
             "iconFull": "/images/game/ic-kungfu-full.webp"
@@ -103,7 +109,7 @@
             "href": "/detail/aladdin",
             "title": "Aladdin",
             "type": "slot",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "A whole new world! This SLOT GAME is completely magical with no Lines-picking required. A blow-mind gameplay increases the winning rate more than ever!",
             "background": "/images/game/bg-aladdin.webp",
             "icon": "/images/game/ic-aladdin.webp",
             "color": "#061654",
@@ -122,8 +128,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "The game includes 6 normal Aladin symbols and 4 special symbols: WILD, JACKPOT, BONUS, FREESPIN\n- Player doesn't need to select winning lines. Just hit Spin or Auto and wait for the result\n- Winning combinations need follow: starting from 1st column, continuously, counting from left to right, but BONUS and FREESPIN\n- Winning combinations only be legit  for longest series of symbol"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-aladdin-left.webp",
             "iconRight": "/images/game/ic-aladdin-right.webp",
             "iconFull": "/images/game/ic-aladdin-full.webp"
@@ -133,7 +145,7 @@
             "href": "/detail/galaxy",
             "title": "Galaxy",
             "type": "slot",
-            "description": "An amazing fish-catching, shooting game with amazing features.",
+            "description": "In a galaxy far, far away, we have a SLOT GAME for sci-fi fans. This is also the slot game that has the most valuable prize in the bonus section: extra bonus inside a bonus turn.",
             "background": "/images/game/bg-galaxy.webp",
             "icon": "/images/game/ic-galaxy.webp",
             "color": "#4d1309",
@@ -152,8 +164,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "With 5 reels with only 4 normal symbols and 3 special symbols: JACKPOT, BONUS and FREESPIN\n⦿ Step 1: Choose a bet level\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Click Spin or Auto and wait for the result\nWhen you enter BONUS game, you will have chance to enter another mini section for choosing a bigger prize than the chest in main round of BONUS section"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-galaxy-left.webp",
             "iconRight": "/images/game/ic-galaxy-right.webp",
             "iconFull": "/images/game/ic-galaxy-full.webp"
@@ -163,7 +181,7 @@
             "href": "/detail/ice",
             "title": "Ice",
             "type": "slot",
-            "description": "An amazing fish-catching, shooting game with amazing features.",
+            "description": "If you are a fan of Madagascar the movie, this is a great choice for you: a SLOT GAME with the theme of the funny Penguins in North pole. With a creative gameplay, you will have more chance to multiply your crypto will the ice cube in this game",
             "background": "/images/game/bg-ice.webp",
             "icon": "/images/game/ic-ice.webp",
             "color": "#031754",
@@ -182,8 +200,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "Traditional five reels but have a very unique technique: after the symbols are counted on the winning lines, they will be disappeared then other symbols will fall down and continue to count with the winning lines.\n⦿ Step 1: Choose a bet among 4 levels\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Click Spin or Auto and wait for the result\nThe Bonus section is super simple: choosing 1 among 3 valuable chests"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-ice-left.webp",
             "iconRight": "/images/game/ic-ice-right.webp",
             "iconFull": "/images/game/ic-ice-full.webp"
@@ -193,7 +217,7 @@
             "href": "/detail/vikings",
             "title": "Vikings",
             "type": "slot",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "HoHoHo! Let’s meet the Vikings through this SLOT GAME with 5 reels. Back in the olden days, but now you will have chance to multiply your crypto will 25 winning line in this game",
             "background": "/images/game/bg-vikings.webp",
             "icon": "/images/game/ic-vikings.webp",
             "color": "#044a52",
@@ -212,8 +236,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "The game includes 7 normal Viking symbols and 4 special symbols: WILD, JACKPOT, BONUS and FREESPIN\n⦿ Step 1: Choose a bet level\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Click Spin or Auto and wait for the result\nThe Bonus will open a new mini game hunting bird, while The free spin will apply on the main section with the chance to win other Freespin and Bonus"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-vikings-left.webp",
             "iconRight": "/images/game/ic-vikings-right.webp",
             "iconFull": "/images/game/ic-vikings-full.webp"
@@ -223,7 +253,7 @@
             "href": "/detail/dragon",
             "title": "Dragon",
             "type": "slot",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "Take a  trip to Eastern together with the biggest SLOT GAME we have: 5 reels with 5 horizontals give us 40 winning lines! Don’t miss the chance to try the special function that only has in Dragon: ReSpin",
             "background": "/images/game/bg-dragon.webp",
             "icon": "/images/game/ic-dragon.webp",
             "color": "#533d03",
@@ -242,8 +272,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "The game includes 5 normal symbols not only for using as multipliers but also be divided into 2 types:\n+2 for Dragon points for Multiple function,\n+3 for Tiger points for Freespin function\nand only 1 special symbols: JACKPOT\n⦿ Step 1: Choose a bet level\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Click Spin or Auto and wait for the result\nReSpin: if the spin is won, the system will continue to spin and pay the prize"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-dragon-left.webp",
             "iconRight": "/images/game/ic-dragon-right.webp",
             "iconFull": "/images/game/ic-dragon-full.webp"
@@ -253,7 +289,7 @@
             "href": "/detail/cowboy",
             "title": "Cowboy",
             "type": "slot",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "Be a Sheriff with this SLOT GAME! Enjoy the western cowboy experience with 5 reels. This game has the most exciting Jackpot gameplay: hunting the SUPER BIG JACKPOT",
             "background": "/images/game/bg-cowboy.webp",
             "icon": "/images/game/ic-cowboy.webp",
             "color": "#530205",
@@ -272,8 +308,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "The game includes 5 normal Cowboy symbols and 4 special symbols: WILD, JACKPOT, BONUS, FREESPIN and 2 special symbol in Jackpot minigame Jackpot Super Big and Jackpot Big\n⦿ Step 1: Choose a bet level\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Click Spin or Auto and wait for the result\nDepends to the number Jackpot symbol, you will have small pot, normal pot, big pot or super big pot"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-cowboy-left.webp",
             "iconRight": "/images/game/ic-cowboy-right.webp",
             "iconFull": "/images/game/ic-cowboy-full.webp"
@@ -283,7 +325,7 @@
             "href": "/detail/diamonds",
             "title": "Diamonds",
             "type": "mini",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "This is a simplest SLOT GAME for people who love simple things. Be patient to win big and multiply your crypto by the magical reels that never disappointed you",
             "background": "/images/game/bg-diamonds.webp",
             "icon": "/images/game/ic-diamonds.webp",
             "color": "#050e52",
@@ -302,8 +344,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "5 kinds of fruits and 1 WILD symbol are arranged in 3 reels, 3 rows which form a lot of combinations that pay out according to the 20 given lines.\n⦿ Step 1: Player need to choose a bet level\n⦿ Step 2: Player chooses the number of bet lines, including 20 pre-designed lines\n⦿ Step 3: Hit the trigger"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-diamonds-left.webp",
             "iconRight": "/images/game/ic-diamonds-right.webp",
             "iconFull": "/images/game/ic-diamonds-full.webp"
@@ -313,7 +361,7 @@
             "href": "/detail/minions",
             "title": "Minions",
             "type": "mini",
-            "description": "An amazing fish-catching, shooting game with amazing features.",
+            "description": "An interesting SLOT GAME with Minion the movie theme. Three reels is enough for people who like simple things. You love Minions, now you will love them more because of the multipliers they give!",
             "background": "/images/game/bg-minion.webp",
             "icon": "/images/game/ic-minion.webp",
             "color": "#022152",
@@ -332,8 +380,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "You have 20 Lines to win with only 6 Minion symbols and 1 WILD symbol with replace any symbol\n⦿ Step 1: Choose a bet level among 4\n⦿ Step 2: Choose number of Lines\n⦿ Step 3: Hit Play icon and wait for the result\nThe combination of Minion symbol will make multiplier for your stake\nWILD symbol x 3 = JACKPOT"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-minions-left.webp",
             "iconRight": "/images/game/ic-minions-right.webp",
             "iconFull": "/images/game/ic-minions-full.webp"
@@ -343,7 +397,7 @@
             "href": "/detail/gems",
             "title": "Gems",
             "type": "mini",
-            "description": "An amazing fish-catching, shooting game with amazing features.",
+            "description": "Another simple SLOT GAME for gems lovers. If you want to have more multipliers on the reels, this one is a great choice that will make you satisfied from the first play.",
             "background": "/images/game/bg-gems.webp",
             "icon": "/images/game/ic-gems.webp",
             "color": "#530207",
@@ -362,8 +416,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "Beside 3 main reels, you can enjoy digging gems with some multiplier amount come with 2 extra reels\n⦿ Step 1: Select betting amount\n⦿ Step 2: Select Manually or Automatically spin\n⦿ Step 3: Wait the results to be displayed\nEnjoy 27 LINES of winning"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-gem-left.webp",
             "iconRight": "/images/game/ic-gem-right.webp",
             "iconFull": "/images/game/ic-gem-full.webp"
@@ -373,7 +433,7 @@
             "href": "/detail/sky-earth",
             "title": "Sky Earth",
             "type": "table",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "Mini Sky Earth is a minigame of prediction with a large win rate that gives players a sense of excitement. The result will reveal just after a second! It’s not about luck, it’s about fate.",
             "background": "/images/game/bg-sky-earth.webp",
             "icon": "/images/game/ic-sky-earth.webp",
             "color": "#533f04",
@@ -392,8 +452,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "At the beginning of the session, a random number will appear in the range from 1 to 18. Players can choose to go Up or Down according to the prediction.\n⦿ Step 1: Choose a bet level\n⦿ Step 2: Click icon \"Play\" to join the game\nThe system will randomly appear 1 number for players to make their choice\n⦿ Step 3: Predict whether the next number is larger or smaller than the number that appeared\n⦿ Step 4: You can hit STOP any time to take profit, however you will lost chance to get JACKPOT \nYou can use the Clones function to save the current result. The purpose is that if you get a wrong prediction in the next move, you will still be able to return to the state at the Clones (only used once in a session). "
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-skyearth-left.webp",
             "iconRight": "/images/game/ic-skyearth-right.webp",
             "iconFull": "/images/game/ic-skyearth-full.webp"
@@ -403,7 +469,7 @@
             "href": "/detail/lucky-dice",
             "title": "Lucky Dice",
             "type": "table",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "Lucky Dice offers a variety of games so you can play dice like never before. Win big and multiply your crypto with the most generous casino bonuses around!",
             "background": "/images/game/bg-lucky-dice.webp",
             "icon": "/images/game/ic-lucky-dice.webp",
             "banner": "/images/game/banner-dice.webp",
@@ -423,8 +489,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "With 3 dice, you have 2 ways to play in each session:\n⦿ Step 1: Choosing BIG if you predict the sum of 3 dices will be between 11 - 18 or choosing SMALL if you predict the sum of 3 dice will be between 3 - 10\n⦿ Step 2: Choosing exactly the sum of 3 dice with different winning rates.\nEach session has 50 seconds for placing bets and 10 seconds for giving results. There is no maximum bet for each session so you can easily correct your mistakes in just a few minutes.\nSpecially, all information about number of players and bet amount on BIG and SMALL will be given for reference"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-dice-left.webp",
             "iconRight": "/images/game/ic-dice-right.webp",
             "iconFull": "/images/game/ic-dice-full.webp"
@@ -434,7 +506,7 @@
             "href": "/detail/3cards",
             "title": "3 Cards",
             "type": "card",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "One of the simplest ways to play with cards. The result will come just after the cards are distributed to hands. You will have chances to accumulate your profit as fast as possible!",
             "background": "/images/game/bg-3cards.webp",
             "icon": "/images/game/ic-3cards.webp",
             "color": "#530207",
@@ -453,8 +525,14 @@
                 }
             ],
             "gameType": "Video Slots, 3D Games",
-            "phone": "/images/game/ic-phone-kungfu.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "phone": "/images/game/ic-phone.webp",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "You will compare the points of 3 cards on your hand to 3 cards of the dealer.\n⦿ You can choose any amount of stake or amount of hand among 4 hands to bet in 1 session\n⦿ You will win if total points in 3 cards of a hand is larger than total points of dealer \n⦿ A hand with “3 Ace” would count “Chicken-Win” which requires 10,000 PAN of stake\nThis is one of the most easy and fast game which 25 seconds for placing bet and 20 second of revealing the results"
+                }
+            ],
+            "fullDescription": "You will compare the points of 3 cards on your hand to 3 cards of the dealer.\n⦿ You can choose any amount of stake or amount of hand among 4 hands to bet in 1 session\n⦿ You will win if total points in 3 cards of a hand is larger than total points of dealer \n⦿ A hand with “3 Ace” would count “Chicken-Win” which requires 10,000 PAN of stake\nThis is one of the most easy and fast game which 25 seconds for placing bet and 20 second of revealing the results",
             "iconLeft": "/images/game/ic-3cards-left.webp",
             "iconRight": "/images/game/ic-3cards-right.webp",
             "iconFull": "/images/game/ic-3cards-full.webp"
@@ -494,7 +572,7 @@
             "href": "",
             "title": "Mini Poker",
             "type": "card",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "If you are a Poker fan, this is a game you have to try immediately. The best combination of Poker and Slot Game is a dream for the fans of both sides. Now you can win big with Poker but don’t need to all-in!",
             "background": "/images/game/bg-mini-poker.webp",
             "icon": "/images/game/ic-mini-poker.webp",
             "color": "#530207",
@@ -514,10 +592,46 @@
             ],
             "gameType": "Video Slots, 3D Games",
             "phone": "/images/game/ic-phone.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": ""
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-mini-poker-left.webp",
             "iconRight": "/images/game/ic-mini-poker-right.webp",
             "iconFull": "/images/game/ic-mini-poker-full.webp"
+        },
+        {
+            "id": 17,
+            "href": "/detail/shake-coin",
+            "title": "Shake Coin",
+            "type": "table",
+            "description": "Have you ever thought of another way to play with coins? Now with Shake Coin, you not only experience unique gameplay but also earn up to x16 of your crypto  with very high probability.",
+            "background": "/images/game/bg-shake-coin.webp",
+            "icon": "/images/game/ic-shake-coin.webp",
+            "color": "#533f04",
+            "informations": [
+                {
+                    "key": "MEDIUM",
+                    "value": "Volatility"
+                },
+                {
+                    "key": "98,23%",
+                    "value": "RTP"
+                },
+                {
+                    "key": "x22000",
+                    "value": "Maximum Win"
+                }
+            ],
+            "gameType": "Video Slots, 3D Games",
+            "phone": "/images/game/ic-phone.webp",
+            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "iconLeft": "/images/game/ic-shake-coin-left.webp",
+            "iconRight": "/images/game/ic-shake-coin-right.webp",
+            "iconFull": "/images/game/ic-shake-coin-full.webp"
         }
     ]
 }
