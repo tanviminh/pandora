@@ -5,6 +5,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 const Wrapper = styled(ButtonBase)`
   border-radius: 16px;
   height: 100%;
+  width: 100%;
   border: double 2px transparent;
   background-image: linear-gradient(to bottom, #000, #000), linear-gradient(to top, #ffc02f, #fff, #ffbb28);
   background-origin: border-box;
@@ -74,7 +75,7 @@ const Item: React.FC<Props> = (props) => {
   return (
     <Grow in={true} key={id} style={{ transitionDelay: `${delay}ms` }}>
       <Wrapper onClick={handleClick}>
-        <Stack sx={{ position: 'relative', height: '100%' }}>
+        <Stack sx={{ position: 'relative', height: '100%', width: '100%' }}>
           <Stack sx={{ height: 400, overflow: 'hidden' }}>
             <Background className="background" src={background} />
           </Stack>

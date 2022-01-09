@@ -42,7 +42,7 @@
             "href": "/detail/fish-shooting",
             "title": "Fish Shooting",
             "type": "skill",
-            "description": "An amazing fish-catching, shooting game with amazing features.",
+            "description": "Coming Soon",
             "background": "/images/game/bg-fish.webp",
             "icon": "/images/game/ic-fish.webp",
             "color": "#4e043d",
@@ -542,7 +542,7 @@
             "href": "",
             "title": "High Low",
             "type": "card",
-            "description": "A slot machine is a gambling game with spinning reels.",
+            "description": "Coming soon",
             "background": "/images/game/bg-high-low.webp",
             "icon": "/images/game/ic-high-low.webp",
             "color": "#533f04",
@@ -595,7 +595,52 @@
             "hows": [
                 {
                     "type": "text",
-                    "content": ""
+                    "content": "You can immediately draw 5 cards to make a poker hand, or draw 5 hands at once. The winning rate is from high to low:"
+                },
+                {
+                    "type": "array",
+                    "content": [
+                        {
+                            "Hand-ranking": "Royal flush",
+                            "Prize": "JACKPOT"
+                        },
+                        {
+                            "Hand-ranking": "Straight flush",
+                            "Prize": "1:1000"
+                        },
+                        {
+                            "Hand-ranking": "Four of a kind",
+                            "Prize": "1:150"
+                        },
+                        {
+                            "Hand-ranking": "Full house",
+                            "Prize": "1:50"
+                        },
+                        {
+                            "Hand-ranking": "Flush",
+                            "Prize": "1:20"
+                        },
+                        {
+                            "Hand-ranking": "Straight",
+                            "Prize": "1:13"
+                        },
+                        {
+                            "Hand-ranking": "Three of a kind",
+                            "Prize": "1:8"
+                        },
+                        {
+                            "Hand-ranking": "Two pairs",
+                            "Prize": "1:5"
+                        },
+                        {
+                            "Hand-ranking": "One pairs J or higher",
+                            "Prize": "1:2.5"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "content": "⦿ Step 1: Choose among 4 bet levels\n⦿ Step 2: Hit trigger and wait for the result\nAuto spin & Speed up function: sessions start faster and continuously"
                 }
             ],
             "fullDescription": "",
@@ -628,7 +673,72 @@
             ],
             "gameType": "Video Slots, 3D Games",
             "phone": "/images/game/ic-phone.webp",
-            "fullDescription": "PG SOFT™ has just launched their very first Mahjong inspired slot machine game – “Mahjong Ways”! Mahjong is a game that originated from China, created from the wisdom of ancient Chinese. As a classic Chinese chess game, Mahjong culture has taken its roots all over the world and is deeply loved by the people!\nIt’s time to flaunt your amazing skills! Mahjong Ways is a 5-reel, 4-row video slot featuring Wild symbol transformation and free spins with increasing multiplier. Win 12 free spins by triggering the Free Spins Feature when 3 Scatter symbols appear anywhere. Each additional Scatter symbol will trigger 2 more free spins! In addition, during the Free Spins Feature, all wins can be multiplied by up to x10 multiplier. Will you be the next King of Mahjong? Show off your Mahjong skills now!",
+            "hows": [
+                {
+                    "type": "text",
+                    "content": "With 4 coins, in each session you can predict the different outcomes with high winning rates\nSpecially, each session is very fast: 25 seconds for placing bet and 15 seconds for checking the result\nThere are 2 main outcomes: EVEN and ODD. Win rate is 1: 1.98"
+                },
+                {
+                    "type": "array",
+                    "content": [
+                        {
+                            "Code": "3",
+                            "OUTCOME": "ODD",
+                            "Result": "1 tail 3 faces"
+                        },
+                        {
+                            "Code": "1",
+                            "OUTCOME": "ODD",
+                            "Result": "1 face 3 tails"
+                        },
+                        {
+                            "Code": "0",
+                            "OUTCOME": "EVEN",
+                            "Result": "4 tails"
+                        },
+                        {
+                            "Code": "4",
+                            "OUTCOME": "EVEN",
+                            "Result": "4 faces "
+                        },
+                        {
+                            "Code": "2",
+                            "OUTCOME": "EVEN",
+                            "Result": "2 faces 2 tails"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "content": "- There are 4 sub-outcomes:"
+                },
+                {
+                    "type": "array",
+                    "content": [
+                        {
+                            "OUTCOME": "4 faces",
+                            "Winning rate": "1:16"
+                        },
+                        {
+                            "OUTCOME": "4 tails",
+                            "Winning rate": "1:16"
+                        },
+                        {
+                            "OUTCOME": "1 tails 3 faces",
+                            "Winning rate": "1:4"
+                        },
+                        {
+                            "OUTCOME": "3 faces 1 tails",
+                            "Winning rate": "1:4"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "content": "System will charge 1% fee of total prize of sub-outcome"
+                }
+            ],
+            "fullDescription": "",
             "iconLeft": "/images/game/ic-shake-coin-left.webp",
             "iconRight": "/images/game/ic-shake-coin-right.webp",
             "iconFull": "/images/game/ic-shake-coin-full.webp"

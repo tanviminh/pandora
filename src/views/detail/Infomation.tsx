@@ -1,7 +1,8 @@
+import data from 'assets/data/game.json';
 import { Image, Stack, Text, Title } from 'components';
 import { useRouter } from 'next/router';
 import React from 'react';
-import data from 'assets/data/game.json';
+import TableView from './TableView';
 
 const Information: React.FC = () => {
   const { query } = useRouter();
@@ -38,6 +39,9 @@ const Information: React.FC = () => {
                   {item.content}
                 </Text>
               );
+            }
+            if (item.type === 'array') {
+              return <TableView data={item.content} />;
             }
             return null;
           })}
