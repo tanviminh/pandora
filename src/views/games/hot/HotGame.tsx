@@ -30,8 +30,8 @@ const BannerWrapper = styled(ButtonBase)`
 `;
 
 const Description = styled(Text)`
-  max-height: 4.2em;
-  line-height: 1.4em;
+  /* max-height: 4.2em;
+  line-height: 1.4em; */
   display: block;
   overflow: hidden;
   text-overflow: ellipsis;

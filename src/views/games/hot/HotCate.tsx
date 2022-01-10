@@ -18,11 +18,11 @@ const Wrapper = styled(Stack)`
 `;
 
 const Description = styled(Text)`
-  max-height: 7em;
-  line-height: 1.4em;
+  /* max-height: 7em;
+  line-height: 1.4em; */
   display: block;
   overflow: hidden;
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis; */
   word-wrap: break-word;
 `;
 
