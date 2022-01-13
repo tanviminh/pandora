@@ -91,10 +91,10 @@ const Item: React.FC<Props> = (props) => {
                 </Stack>
               </Stack>
 
-              <Stack direction="row" zIndex={1} spacing={4} justifyContent="space-between">
+              <Stack direction="row" zIndex={1} spacing={4} justifyContent="space-around">
                 {informations.map((item, index) => {
                   return (
-                    <Stack key={index}>
+                    <Stack key={index} textAlign="center">
                       <Text fontWeight="bold">{item.key}</Text>
                       <Text variant="body2">{item.value}</Text>
                     </Stack>

@@ -3,9 +3,11 @@ import { Box } from 'components';
 import { Application, Loader } from 'pixi.js';
 import { Spine } from 'pixi-spine';
 import { info } from 'utils/log';
+import useDetectDevice from 'hooks/useDetect';
 
 const SpineAnimation: React.FC<{ url: string }> = ({ url }) => {
   const viewer = useRef<any>();
+  const { isMobile } = useDetectDevice();
   useEffect(() => {
     if (!viewer) {
       return;
@@ -31,16 +33,12 @@ const SpineAnimation: React.FC<{ url: string }> = ({ url }) => {
       try {
         const model = new Spine(resources['model'].spineData);
         const localBound = model.getLocalBounds();
-        const parentHeight = viewer.current.parentNode.clientHeight;
-        const spriteHeight = localBound.height;
-
-        const scale = parentHeight / spriteHeight;
-        const positionX = app.screen.width / 2 - localBound.x * scale - (localBound.width / 2) * scale;
-        const positionY =
-          app.screen.height / 2 - localBound.y * scale - (localBound.height / 2) * scale + app.screen.height / 15;
-        const position = { positionX, positionY };
-        model.position.set(position.positionX, position.positionY);
-        model.scale.set(scale);
+        const parentWidth = viewer.current.parentNode.clientWidth;
+        const spriteWidth = localBound.width;
+        const scale = parentWidth / spriteWidth;
+        const moreScale = isMobile ? 0.02 : 0.1;
+        model.position.set(0, 0);
+        model.scale.set(scale + moreScale);
         model.state.setAnimation(1, 'animation', true);
         app.stage.addChild(model);
         app.view.style.opacity = '1';
@@ -50,7 +48,7 @@ const SpineAnimation: React.FC<{ url: string }> = ({ url }) => {
     };
     app.loader.add('model', url, { crossOrigin: '*' });
     app.loader.load(onAssetsLoaded);
-  }, [url]);
+  }, [isMobile, url]);
 
   return <Box ref={viewer} sx={{ width: '100%', height: '100%' }} />;
 };

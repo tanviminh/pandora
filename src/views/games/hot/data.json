@@ -13,7 +13,7 @@
         {
             "title": "Table Game",
             "href": "/games?type=table",
-            "description": "Generating random combinations of symbols on a dial, certain combinations winning varying amounts of money for the player",
+            "description": "Using skill, psychological control and mixed with wits, the table game creates a game that is not only about luck but also full of wisdom.",
             "icon1": "/images/game/ic-high-low.webp",
             "icon2": "/images/game/ic-3cards.webp",
             "icon3": "/images/game/ic-mini-poker.webp",
