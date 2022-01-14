@@ -38,9 +38,9 @@ const Introduction: React.FC = () => {
               <Stack alignItems="center" spacing={5}>
                 <PandoraBox />
                 <Stack spacing={4} p={8} sx={{ bgcolor: '#00000080', borderRadius: 2 }} textAlign="center">
-                  <Title sx={{ fontWeight: 'bold' }}>Gamble transparently with crypto</Title>
+                  <Title sx={{ fontWeight: 'bold' }}>Play-to-earn in PANDOVERSE </Title>
                   <Subtitle>
-                    Join the revolution of metaverse gambling world, free to play and earn real value crypto
+                    Play and have fun in the metaverse casino . Trade NFT, earn PAN from exciting games
                   </Subtitle>
                 </Stack>
               </Stack>
@@ -63,8 +63,8 @@ const Introduction: React.FC = () => {
           <Grid item md={4} spacing={5}>
             <PandoraBox />
             <Stack spacing={4} p={8} sx={{ bgcolor: '#00000080', borderRadius: 2 }}>
-              <Subtitle sx={{ fontWeight: 'bold' }}>Gamble transparently with crypto</Subtitle>
-              <Text>Join the revolution of metaverse gambling world, free to play and earn real value crypto</Text>
+              <Subtitle sx={{ fontWeight: 'bold' }}>Play-to-earn in PANDOVERSE</Subtitle>
+              <Text>Play and have fun in the metaverse casino . Trade NFT, earn PAN from exciting games</Text>
             </Stack>
           </Grid>
         </Grid>

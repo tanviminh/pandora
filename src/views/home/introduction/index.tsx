@@ -52,7 +52,7 @@ const View: React.FC = () => {
           delay: 5000,
           disableOnInteraction: false,
         }}
-        style={{ height: isMobile ? 'auto:' : '100vh' }}
+        autoHeight
         onSlideChange={(swiper) => {
           setTab(swiper.realIndex);
           setManualSlide(false);
